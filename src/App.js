@@ -11,10 +11,10 @@ export default function App() {
           <h1 className='text-9xl font-bold'>
             Townhall
           </h1>
-          <button className='self-start px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm mt-8' onClick={() => setShowModal(true)}>Watch a Tutorial</button>
+          <button className='self-start px-4 py-2 font-semibold text-sm bg-orange-950 text-white rounded-md shadow-sm mt-8' onClick={() => setShowModal(true)}>Watch a Tutorial</button>
           <h3 className='font-bold mt-44'>Whenever you're ready</h3>
-          <button className='self-start text-2xl mt-4 px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm' onClick={() => setShowModal(true)}>Start a Meeting Now</button>
-          <button className='self-start text-2xl mt-4 px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm' onClick={() => setShowModal(true)}>Schedule a Meeting Later</button>
+          <button className='self-start text-2xl mt-4 px-4 py-2 font-semibold text-sm bg-orange-950 text-white rounded-md shadow-sm' onClick={() => setShowModal(true)}>Start a Meeting Now</button>
+          <button className='self-start text-2xl mt-4 px-4 py-2 font-semibold text-sm bg-orange-950 text-white rounded-md shadow-sm' onClick={() => setShowModal(true)}>Schedule a Meeting Later</button>
         </div>
         <div className='flex flex-col text-right mr-24'>
           <img src={profile} alt="Profile" className='w-10 self-end mt-8'/>
@@ -58,8 +58,8 @@ function PlannedMeetings() {
         <div class="flex flex-row">
           <div className='rounded-full bg-gray-200 w-10 h-10 align-self-center mr-4' />
           <div className='flex flex-col w-5/6'>
-            <div className='w-4/5 h-5 bg-gray-200' />
-            <div className='w-3/5 h-5 bg-gray-200 mt-2'/>
+            <h2 className='text-left'>Wednesday, March 16th at 3:00 pm</h2>
+            <h2 className='text-left'>Jane Doe</h2>
           </div>
         </div>
       </div>
